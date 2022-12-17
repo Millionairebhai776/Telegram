@@ -13,7 +13,7 @@ class Config(object):
     TOKEN = getenv("TOKEN", "5892062017:AAGF4SqtYrU38VjlDoOc-NSblqABRH74Hok")
     OWNER_ID = getenv("OWNER_ID", 611969501)
     STRING_SESSION = getenv("STRING_SESSION", "1BVtsOJ0Buzp5hmNxZ86gBwwOCZYM8I7I2CeVE0JrdNPROj9ABEK-KDyoJv8IYDR0_YcVh3IpqMBmo69Qq3vfaT5fRPXAB0mwQk27vBSYH9b0Oe6sSke2A0bJ-DU5nh4UxoYZwTVXViAk1qR4GlCQ9duG8II2qhzn_bZtPzoF_Bca0OMOeh9t7XCWgA00blSSNGZ8lSAlvMMUWJ-_xss4c_0QAfjsNWgwlL1dXmmIoQQsg1n42FPuxI5CunSGbl9ZCzLJ3aX9jAjXEtiYee2kTmizqJ0hHsMbBIX_hi0oiVmXQ6RciSjr27c4aYPFqVz0es-9vwu78OlYtZkvWxpQax8xbZY7SBY=")
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "@FILMWORLDOFFICIA")
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "FILMWORLDOFFICIA")
     DB_URI = getenv("DATABASE_URL", "postgres://lulqsvuj:uq1oTCSihKWTXRraNABEvgI1AYZBgeZB@mel.db.elephantsql.com/lulqsvuj")
     DB_URI = DB_URI.replace("postgres", "postgresql")
     MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001284286847")
